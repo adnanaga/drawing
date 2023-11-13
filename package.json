@@ -1,0 +1,16 @@
+{
+  "name": "drawing",
+  "version": "1.0.0",
+  "description": "this is a drawing app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js && say hello"
+  },
+  "keywords": [
+    "drawing",
+    "express"
+  ],
+  "author": "adnan aga",
+  "license": "ISC"
+}

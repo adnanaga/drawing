@@ -4,13 +4,19 @@
   "description": "this is a drawing app",
   "main": "index.js",
   "scripts": {
+    "develop": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js && say hello"
   },
+  "type": "module",
   "keywords": [
     "drawing",
     "express"
   ],
   "author": "adnan aga",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1"
+  }
 }
